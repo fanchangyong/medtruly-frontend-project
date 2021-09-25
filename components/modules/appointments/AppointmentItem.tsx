@@ -38,7 +38,7 @@ const AppointmentItem: FC<Props> = ({
         description={description}
       >
         <div className={styles.content}>
-          <div className={styles.row1}>
+          <div className={styles.patientRow}>
             <span className={styles.patientName}>
               {patientName}
             </span>
