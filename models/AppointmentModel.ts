@@ -9,4 +9,5 @@ export default interface AppointmentModel {
   supervisorName: string;
   serviceStart: string;
   serviceEnd: string;
+  description: string;
 }

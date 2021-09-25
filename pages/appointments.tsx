@@ -30,6 +30,7 @@ const allAppointments: AppointmentModel[] = json.data.allNotes.edges.map((appt: 
     supervisorName: getFullName(appt.supervisor?.account?.firstName, appt.supervisor?.account?.lastName),
     serviceStart: appt.serviceStart,
     serviceEnd: appt.serviceEnd,
+    description: appt.description,
   };
 });
 
