@@ -36,14 +36,38 @@ const allAppointments: AppointmentModel[] = json.data.allNotes.edges.map((appt: 
 });
 
 const AppointmentsPage: NextPage = () => {
-  const [availableTypes, setAvailableTypes] = useState<Set<AppointmentTypes>>(new Set());
-  const [availableMonths, setAvailableMonths] = useState<Set<string>>(new Set());
-
   const [filteredAppointments, setFilteredAppointments] = useState<AppointmentModel[]>(allAppointments);
 
   const [search, setSearch] = useState<string>('');
   const [periodFilter, setPeriodFilter] = useState<string>('All');
   const [typeFilter, setTypeFilter] = useState<string>('All');
+
+  const availableTypes = useMemo(() => {
+    const set = new Set<AppointmentTypes>();
+    allAppointments.forEach((appt) => {
+      const {
+        apptType,
+      } = appt;
+      if (!set.has(apptType)) {
+        set.add(apptType);
+      }
+    });
+    return set;
+  }, []);
+
+  const availableMonths = useMemo(() => {
+    const set = new Set<string>();
+    allAppointments.forEach((appt) => {
+      const {
+        serviceStart,
+      } = appt;
+      const monthString = getMonthString(serviceStart);
+      if (!set.has(monthString)) {
+        set.add(monthString);
+      }
+    });
+    return set;
+  }, []);
 
   useEffect(() => {
     const filtered = allAppointments.filter((appt) => {
@@ -87,26 +111,6 @@ const AppointmentsPage: NextPage = () => {
       return acc;
     }, {} as Record<AppointmentStatuses, AppointmentModel[]>);
   }, [filteredAppointments]);
-
-  useEffect(() => {
-    const typeSet = new Set<AppointmentTypes>();
-    const monthSet = new Set<string>();
-    allAppointments.forEach((appt) => {
-      const {
-        apptType,
-        serviceStart,
-      } = appt;
-      if (!typeSet.has(apptType)) {
-        typeSet.add(apptType);
-      }
-      const monthString = getMonthString(serviceStart);
-      if (!monthSet.has(monthString)) {
-        monthSet.add(monthString);
-      }
-    });
-    setAvailableTypes(typeSet);
-    setAvailableMonths(monthSet);
-  }, []);
 
   const periodOptions: Option[] = [];
   for (let monthString of Array.from(availableMonths).sort()) {
