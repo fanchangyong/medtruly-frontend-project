@@ -1,0 +1,407 @@
+{
+    "data": {
+        "account": {
+            "id": "4444443",
+            "firstName": "Tyler",
+            "lastName": "Lee",
+            "role": "admin"
+        },
+        "allNotes": {
+            "totalCount": 15,
+            "edges": [
+                {
+                    "id": "000001",
+                    "type": "TYPE_A",
+                    "status": "PENDING",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-01-01T00:00:00Z",
+                    "serviceEnd": "2020-01-31T00:00:00Z",
+                    "patient": {
+                        "id": "333331",
+                        "account": {
+                            "id": "4444442",
+                            "firstName": "Brett",
+                            "lastName": "Yarborough"
+                        }
+                    },
+                    "signee": {
+                        "id": "999991",
+                        "account": {
+                            "id": "4444443",
+                            "firstName": "Tyler",
+                            "lastName": "Lee"
+                        }
+                    }
+                },
+                {
+                    "id": "000002",
+                    "type": "TYPE_A",
+                    "status": "PENDING",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-01-01T00:00:00Z",
+                    "serviceEnd": "2020-01-31T00:00:00Z",
+                    "patient": {
+                        "id": "333332",
+                        "account": {
+                            "id": "4444444",
+                            "firstName": "Jane",
+                            "lastName": "Doe"
+                        }
+                    },
+                    "signee": {
+                        "id": "999991",
+                        "account": {
+                            "id": "4444443",
+                            "firstName": "Tyler",
+                            "lastName": "Lee"
+                        }
+                    }
+                },
+                {
+                    "id": "100019",
+                    "type": "TYPE_B",
+                    "status": "PENDING",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-02-01T00:00:00Z",
+                    "serviceEnd": "2020-02-28T00:00:00Z",
+                    "patient": {
+                        "id": "333332",
+                        "account": {
+                            "id": "4444445",
+                            "firstName": "John",
+                            "lastName": "Lee"
+                        }
+                    },
+                    "signee": {
+                        "id": "999997",
+                        "account": {
+                            "id": "4444446",
+                            "firstName": "Mia-Rose",
+                            "lastName": "Dillard"
+                        }
+                    }
+                },
+                {
+                    "id": "000003",
+                    "type": "TYPE_C",
+                    "status": "PENDING",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2021-01-01T00:00:00Z",
+                    "serviceEnd": "2021-01-31T00:00:00Z",
+                    "patient": {
+                        "id": "333332",
+                        "account": {
+                            "id": "4444447",
+                            "firstName": "Lillie-Mae",
+                            "lastName": "Jimenez"
+                        }
+                    },
+                    "signee": {
+                        "id": "299991",
+                        "account": {
+                            "id": "4444448",
+                            "firstName": "George",
+                            "lastName": "Travers"
+                        }
+                    }
+                },
+                {
+                    "id": "000011",
+                    "type": "TYPE_A",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-01-01T00:00:00Z",
+                    "serviceEnd": "2020-01-31T00:00:00Z",
+                    "patient": {
+                        "id": "333337",
+                        "account": {
+                            "id": "4444449",
+                            "firstName": "Collette",
+                            "lastName": "Philip"
+                        }
+                    },
+                    "signee": {
+                        "id": "999911",
+                        "account": {
+                            "id": "4444413",
+                            "firstName": "Roseanna",
+                            "lastName": "Madden"
+                        }
+                    }
+                },
+                {
+                    "id": "000041",
+                    "type": "TYPE_A",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-03-01T00:00:00Z",
+                    "serviceEnd": "2020-03-31T00:00:00Z",
+                    "patient": {
+                        "id": "333337",
+                        "account": {
+                            "id": "4444449",
+                            "firstName": "Collette",
+                            "lastName": "Philip"
+                        }
+                    },
+                    "signee": {
+                        "id": "999911",
+                        "account": {
+                            "id": "4444413",
+                            "firstName": "Roseanna",
+                            "lastName": "Madden"
+                        }
+                    }
+                },
+                {
+                    "id": "000082",
+                    "type": "TYPE_A",
+                    "status": "COMPLETED",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.",
+                    "serviceStart": "2020-08-01T00:00:00Z",
+                    "serviceEnd": "2020-08-30T00:00:00Z",
+                    "patient": {
+                        "id": "333181",
+                        "account": {
+                            "id": "4444181",
+                            "firstName": "Alayna",
+                            "lastName": "Kirkpatrick"
+                        }
+                    },
+                    "signee": {
+                        "id": "999981",
+                        "account": {
+                            "id": "4444483",
+                            "firstName": "Andrei",
+                            "lastName": "Tomlinson"
+                        }
+                    },
+                    "supervisor": {
+                        "id": "999991",
+                        "account": {
+                            "id": "4444443",
+                            "firstName": "Tyler",
+                            "lastName": "Lee"
+                        }
+                    }
+                },
+                {
+                    "id": "000085",
+                    "type": "TYPE_B",
+                    "status": "COMPLETED",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.",
+                    "serviceStart": "2020-07-01T00:00:00Z",
+                    "serviceEnd": "2020-07-30T00:00:00Z",
+                    "patient": {
+                        "id": "333189",
+                        "account": {
+                            "id": "4444189",
+                            "firstName": "Samir",
+                            "lastName": "Mcclain"
+                        }
+                    },
+                    "signee": {
+                        "id": "999989",
+                        "account": {
+                            "id": "4444489",
+                            "firstName": "Clark",
+                            "lastName": "Lloyd"
+                        }
+                    },
+                    "supervisor": {
+                        "id": "999991",
+                        "account": {
+                            "id": "4444443",
+                            "firstName": "Tyler",
+                            "lastName": "Lee"
+                        }
+                    }
+                },
+                {
+                    "id": "000012",
+                    "type": "TYPE_C",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-02-01T00:00:00Z",
+                    "serviceEnd": "2020-02-14T00:00:00Z",
+                    "patient": {
+                        "id": "333338",
+                        "account": {
+                            "id": "4444411",
+                            "firstName": "Carrie-Ann",
+                            "lastName": "Almond"
+                        }
+                    },
+                    "signee": {
+                        "id": "999911",
+                        "account": {
+                            "id": "4444413",
+                            "firstName": "Roseanna",
+                            "lastName": "Madden"
+                        }
+                    }
+                },
+                {
+                    "id": "000014",
+                    "type": "TYPE_B",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-12-01T00:00:00Z",
+                    "serviceEnd": "2020-12-17T00:00:00Z",
+                    "patient": {
+                        "id": "333338",
+                        "account": {
+                            "id": "4444411",
+                            "firstName": "Carrie-Ann",
+                            "lastName": "Almond"
+                        }
+                    },
+                    "signee": {
+                        "id": "999911",
+                        "account": {
+                            "id": "4444413",
+                            "firstName": "Roseanna",
+                            "lastName": "Madden"
+                        }
+                    }
+                },
+                {
+                    "id": "000021",
+                    "type": "TYPE_B",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-11-01T00:00:00Z",
+                    "serviceEnd": "2020-11-28T00:00:00Z",
+                    "patient": {
+                        "id": "333338",
+                        "account": {
+                            "id": "4444411",
+                            "firstName": "Carrie-Ann",
+                            "lastName": "Almond"
+                        }
+                    },
+                    "signee": {
+                        "id": "999911",
+                        "account": {
+                            "id": "4444413",
+                            "firstName": "Roseanna",
+                            "lastName": "Madden"
+                        }
+                    }
+                },
+                {
+                    "id": "000022",
+                    "type": "TYPE_B",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-11-01T00:00:00Z",
+                    "serviceEnd": "2020-11-28T00:00:00Z",
+                    "patient": {
+                        "id": "333341",
+                        "account": {
+                            "id": "4444414",
+                            "firstName": "Katharine",
+                            "lastName": "Woodley"
+                        }
+                    },
+                    "signee": {
+                        "id": "999911",
+                        "account": {
+                            "id": "4444413",
+                            "firstName": "Roseanna",
+                            "lastName": "Madden"
+                        }
+                    }
+                },
+                {
+                    "id": "000189",
+                    "type": "TYPE_C",
+                    "status": "COMPLETED",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.",
+                    "serviceStart": "2020-09-01T00:00:00Z",
+                    "serviceEnd": "2020-09-30T00:00:00Z",
+                    "patient": {
+                        "id": "333189",
+                        "account": {
+                            "id": "4444189",
+                            "firstName": "Samir",
+                            "lastName": "Mcclain"
+                        }
+                    },
+                    "signee": {
+                        "id": "999989",
+                        "account": {
+                            "id": "4444489",
+                            "firstName": "Clark",
+                            "lastName": "Lloyd"
+                        }
+                    },
+                    "supervisor": {
+                        "id": "999991",
+                        "account": {
+                            "id": "4444443",
+                            "firstName": "Tyler",
+                            "lastName": "Lee"
+                        }
+                    }
+                },
+                {
+                    "id": "000089",
+                    "type": "TYPE_C",
+                    "status": "COMPLETED",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.",
+                    "serviceStart": "2020-10-01T00:00:00Z",
+                    "serviceEnd": "2020-10-30T00:00:00Z",
+                    "patient": {
+                        "id": "333189",
+                        "account": {
+                            "id": "4444189",
+                            "firstName": "Samir",
+                            "lastName": "Mcclain"
+                        }
+                    },
+                    "signee": {
+                        "id": "999799",
+                        "account": {
+                            "id": "4444789",
+                            "firstName": "Preston",
+                            "lastName": "Prosser"
+                        }
+                    },
+                    "supervisor": {
+                        "id": "999991",
+                        "account": {
+                            "id": "4444443",
+                            "firstName": "Tyler",
+                            "lastName": "Lee"
+                        }
+                    }
+                },
+                {
+                    "id": "000023",
+                    "type": "TYPE_A",
+                    "status": "NEED_REVIEW",
+                    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                    "serviceStart": "2020-10-01T00:00:00Z",
+                    "serviceEnd": "2020-10-30T00:00:00Z",
+                    "patient": {
+                        "id": "333111",
+                        "account": {
+                            "id": "4444111",
+                            "firstName": "Murphy",
+                            "lastName": "Watts"
+                        }
+                    },
+                    "signee": {
+                        "id": "999971",
+                        "account": {
+                            "id": "4444473",
+                            "firstName": "Elouise",
+                            "lastName": "Clay"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

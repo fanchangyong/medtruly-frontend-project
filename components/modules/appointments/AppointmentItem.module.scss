@@ -1,0 +1,60 @@
+@import "styles/colors.scss";
+
+.container {
+  padding: 8px 16px;
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-border;
+  }
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.patientName {
+  font-weight: bolder;
+}
+
+.apptType {
+  display: inline-block;
+  width: 80px;
+  padding: 0px 6px;
+  color: white;
+  font-size: 13px;
+  &.typeA {
+    background: mediumseagreen;
+  }
+  &.typeB {
+    background: royalblue;
+  }
+  &.typeC {
+    background: orange;
+  }
+}
+
+.label {
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.signeeRow {
+  margin-bottom: 8px;
+}
+
+.signeeWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signeeName {
+  margin: 0px 8px;
+}
+
+.serviceDate {
+  font-size: 15px;
+}

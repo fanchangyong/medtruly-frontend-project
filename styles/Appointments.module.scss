@@ -1,0 +1,41 @@
+@import './colors.scss';
+
+.container {
+  min-height: 100vh;
+  background-color: $color-page-bg;
+  display: flex;
+}
+
+.sideNav {
+  width: 260px;
+  border-right: 1px solid $color-border;
+
+  .navItemContainer {
+    padding: 24px 16px;
+    &:not(:first-child) {
+      border-top: 1px solid $color-border;
+    }
+  }
+
+  .filterItemLabel {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+}
+
+.columns {
+  flex: 1;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: center;
+  & > * {
+    flex: 1;
+    max-width: 360px;
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}
