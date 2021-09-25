@@ -10,7 +10,7 @@
     border-radius: 4px;
     z-index: 9;
     max-height: 300px;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   &:hover {
     .card {
