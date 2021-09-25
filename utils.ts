@@ -10,5 +10,5 @@ export function formatDate(dateString: string) {
 
 export function getMonthString(dateString: string) {
   const date = new Date(dateString);
-  return `${date.getFullYear()}-${date.getMonth()}`;
+  return `${date.getFullYear()}-${date.getMonth() + 1}`;
 }
