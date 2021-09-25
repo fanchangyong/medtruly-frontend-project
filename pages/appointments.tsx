@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Head from 'next/head';
 import React, { useState, useMemo, useEffect } from 'react';
 
 import Input from 'components/common/Input';
@@ -127,6 +128,11 @@ const AppointmentsPage: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>
+          Appointments - MedTruly
+        </title>
+      </Head>
       <div className={styles.sideNav}>
         <div className={styles.navItemContainer}>
           <Input
