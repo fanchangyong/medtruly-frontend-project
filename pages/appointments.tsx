@@ -52,7 +52,7 @@ const AppointmentsPage: NextPage = () => {
         set.add(apptType);
       }
     });
-    return set;
+    return Array.from(set);
   }, []);
 
   const availableMonths = useMemo(() => {
@@ -66,7 +66,7 @@ const AppointmentsPage: NextPage = () => {
         set.add(monthString);
       }
     });
-    return set;
+    return Array.from(set).sort();
   }, []);
 
   useEffect(() => {
@@ -112,21 +112,19 @@ const AppointmentsPage: NextPage = () => {
     }, {} as Record<AppointmentStatuses, AppointmentModel[]>);
   }, [filteredAppointments]);
 
-  const periodOptions: Option[] = [];
-  for (let monthString of Array.from(availableMonths).sort()) {
-    periodOptions.push({
+  const periodOptions: Option[] = availableMonths.map((monthString) => {
+    return {
       label: monthString,
       value: monthString,
-    });
-  }
+    };
+  });
 
-  const typeOptions: Option[] = [];
-  for (let type of Array.from(availableTypes)) {
-    typeOptions.push({
-      label: AppointmentTypeToLabels[type],
-      value: type,
-    });
-  }
+  const typeOptions: Option[] = availableTypes.map((apptType) => {
+    return {
+      label: AppointmentTypeToLabels[apptType],
+      value: apptType,
+    };
+  });
 
   const columnStatuses = [AppointmentStatuses.PENDING, AppointmentStatuses.NEED_REVIEW, AppointmentStatuses.COMPLETED];
 
