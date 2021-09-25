@@ -10,5 +10,8 @@ export function formatDate(dateString: string) {
 
 export function getMonthString(dateString: string) {
   const date = new Date(dateString);
-  return `${date.getFullYear()}-${date.getMonth() + 1}`;
+  const month = date.getMonth() + 1;
+  const monthPrefix = month < 10 ? '0' : '';
+
+  return `${date.getFullYear()}-${monthPrefix}${month}`;
 }

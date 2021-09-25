@@ -108,7 +108,7 @@ const AppointmentsPage: NextPage = () => {
   }, []);
 
   const periodOptions: Option[] = [];
-  for (let monthString of Array.from(availableMonths)) {
+  for (let monthString of Array.from(availableMonths).sort()) {
     periodOptions.push({
       label: monthString,
       value: monthString,
